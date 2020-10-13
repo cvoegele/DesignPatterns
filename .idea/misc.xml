@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/02_Observer1" />
+    <file type="web" url="file://$PROJECT_DIR$/03_Observer2" />
+    <file type="web" url="file://$PROJECT_DIR$/04_State" />
+    <file type="web" url="file://$PROJECT_DIR$/05_Strategy" />
+    <file type="web" url="file://$PROJECT_DIR$/AbstractCollection" />
+  </component>
+  <component name="ProjectRootManager" version="2" project-jdk-name="13" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>
