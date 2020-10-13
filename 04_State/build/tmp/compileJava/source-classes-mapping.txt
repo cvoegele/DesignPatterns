@@ -1,0 +1,21 @@
+patterns/state/tickets/TicketMachine.java
+ patterns.state.tickets.TicketMachine
+patterns/state/tickets/TicketMachineGUI.java
+ patterns.state.tickets.TicketMachineGUI
+patterns/state/parser/FloatConverter0.java
+ patterns.state.parser.FloatConverter0
+ patterns.state.parser.FloatConverter0$State
+patterns/state/tickets/TicketMachine2.java
+ patterns.state.tickets.TicketMachine2
+ patterns.state.tickets.TicketMachine2$AbstractState
+ patterns.state.tickets.TicketMachine2$State
+ patterns.state.tickets.TicketMachine2$StateDestSelected
+ patterns.state.tickets.TicketMachine2$StateInit
+ patterns.state.tickets.TicketMachine2$StateMoneyEntered
+patterns/state/parser/FloatConverter1.java
+ patterns.state.parser.FloatConverter1
+ patterns.state.parser.FloatConverter1$1
+ patterns.state.parser.FloatConverter1$State
+patterns/state/tickets/TicketMachine1.java
+ patterns.state.tickets.TicketMachine1
+ patterns.state.tickets.TicketMachine1$State

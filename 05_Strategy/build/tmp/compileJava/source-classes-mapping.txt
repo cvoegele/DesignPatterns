@@ -1,0 +1,37 @@
+patterns/strategy/date/Date.java
+ patterns.strategy.date.Date
+patterns/strategy/nim/Nim.java
+ patterns.strategy.nim.Nim
+ patterns.strategy.nim.Nim$ArtificialIntelligentPlayer
+ patterns.strategy.nim.Nim$HumanPlayer
+ patterns.strategy.nim.Nim$Player
+ patterns.strategy.nim.Nim$RandomPlayer
+patterns/strategy/date/PrintDate.java
+ patterns.strategy.date.PrintDate
+patterns/strategy/layout/BorderLayout2.java
+ patterns.strategy.layout.BorderLayout2
+patterns/strategy/date/StdPrintDate.java
+ patterns.strategy.date.StdPrintDate
+patterns/strategy/layout/DiagonalLayout.java
+ patterns.strategy.layout.DiagonalLayout
+patterns/strategy/date/USPrintDate.java
+ patterns.strategy.date.USPrintDate
+patterns/strategy/layout/SnapLineLayout.java
+ patterns.strategy.layout.SnapLineLayout
+ patterns.strategy.layout.SnapLineLayout$Direction
+ patterns.strategy.layout.SnapLineLayout$SnapLine
+ patterns.strategy.layout.SnapLineLayout$SnapLineBoundingBox
+patterns/strategy/layout/NullLayout.java
+ patterns.strategy.layout.NullLayout
+patterns/strategy/layout/TestLayout.java
+ patterns.strategy.layout.TestLayout
+patterns/strategy/layout/ListLayout.java
+ patterns.strategy.layout.ListLayout
+patterns/strategy/layout/SnapLineLayoutTest.java
+ patterns.strategy.layout.SnapLineLayoutTest
+patterns/strategy/layout/RandomLayout.java
+ patterns.strategy.layout.RandomLayout
+patterns/strategy/layout/BorderLayout.java
+ patterns.strategy.layout.BorderLayout
+patterns/strategy/stateful/LayoutComparer.java
+ patterns.strategy.stateful.LayoutComparer
