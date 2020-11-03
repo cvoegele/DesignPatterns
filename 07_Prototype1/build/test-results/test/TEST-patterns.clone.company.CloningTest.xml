@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="patterns.clone.company.CloningTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2020-10-27T08:56:18" hostname="Christophs-MacBook-Pro.local" time="0.003">
+  <properties/>
+  <testcase name="testCompanyClone" classname="patterns.clone.company.CloningTest" time="0.001"/>
+  <testcase name="testDeep1" classname="patterns.clone.company.CloningTest" time="0.0"/>
+  <testcase name="testDeep2" classname="patterns.clone.company.CloningTest" time="0.0"/>
+  <testcase name="testDeepWithPartTimeEmployee" classname="patterns.clone.company.CloningTest" time="0.0"/>
+  <testcase name="testEmployeeClone" classname="patterns.clone.company.CloningTest" time="0.0"/>
+  <testcase name="testShallow" classname="patterns.clone.company.CloningTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

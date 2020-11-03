@@ -1,0 +1,19 @@
+patterns/clone/Test.java
+ patterns.clone.Test
+patterns/clone/airplane/AirplaneFrame.java
+ patterns.clone.airplane.AirplaneFrame
+ patterns.clone.airplane.AirplaneFrame$1
+ patterns.clone.airplane.AirplaneFrame$2
+patterns/clone/airplane/Airplane.java
+ patterns.clone.airplane.Airplane
+ patterns.clone.airplane.Airplane$Engine
+patterns/clone/Point.java
+ patterns.clone.Point
+patterns/clone/company/Employee.java
+ patterns.clone.company.Employee
+patterns/clone/ColorPoint.java
+ patterns.clone.ColorPoint
+patterns/clone/company/Company.java
+ patterns.clone.company.Company
+patterns/clone/company/PartTimeEmployee.java
+ patterns.clone.company.PartTimeEmployee

@@ -9,7 +9,7 @@ public class Test2 {
 		GroupFigure g1 = new GroupFigure("g1", f1, f2);
 		GroupFigure g2 = new GroupFigure("g2", g1, f3);
 
-		g1.addFigure(g2);
+		g1.addFigure(g2); //!!!!
 
 		g2.draw("");
 	}

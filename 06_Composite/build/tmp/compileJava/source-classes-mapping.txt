@@ -1,0 +1,34 @@
+patterns/composite/swing/FancyGUI.java
+ patterns.composite.swing.FancyGUI
+ patterns.composite.swing.FancyGUI$1
+ patterns.composite.swing.FancyGUI$2
+ patterns.composite.swing.FancyGUI$3
+ patterns.composite.swing.FancyGUI$4
+ patterns.composite.swing.FancyGUI$5
+patterns/composite/swing/ButtonOnButton.java
+ patterns.composite.swing.ButtonOnButton
+patterns/composite/swing/SafeButton.java
+ patterns.composite.swing.SafeButton
+patterns/composite/swing/TreeOnButton.java
+ patterns.composite.swing.TreeOnButton
+ patterns.composite.swing.TreeOnButton$1
+patterns/composite/swing/MultilineButton.java
+ patterns.composite.swing.MultilineButton
+patterns/composite/OvalFigure.java
+ patterns.composite.OvalFigure
+patterns/composite/RectangleFigure.java
+ patterns.composite.RectangleFigure
+patterns/composite/Figure.java
+ patterns.composite.Figure
+patterns/composite/Test3.java
+ patterns.composite.Test3
+patterns/composite/GroupFigure.java
+ patterns.composite.GroupFigure
+patterns/composite/Test2.java
+ patterns.composite.Test2
+patterns/composite/Test1.java
+ patterns.composite.Test1
+patterns/composite/Test4.java
+ patterns.composite.Test4
+patterns/composite/Test0.java
+ patterns.composite.Test0
