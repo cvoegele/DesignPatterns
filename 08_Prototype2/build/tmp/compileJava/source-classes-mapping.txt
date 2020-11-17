@@ -1,0 +1,39 @@
+patterns/clone/figure/RectangleFigure.java
+ patterns.clone.figure.RectangleFigure
+patterns/clone/figure/Figure.java
+ patterns.clone.figure.Figure
+patterns/clone/alias/TestCycle.java
+ patterns.clone.alias.TestCycle
+ patterns.clone.alias.TestCycle$Node
+patterns/clone/immutable/samples/KeyTest.java
+ patterns.clone.immutable.samples.KeyTest
+patterns/clone/comparison/util/ReflectiveClone.java
+ patterns.clone.comparison.util.ReflectiveClone
+ patterns.clone.comparison.util.ReflectiveClone$ClassMetadata
+patterns/clone/immutable/samples/ComplexMutable.java
+ patterns.clone.immutable.samples.ComplexMutable
+patterns/clone/figure/FigureListener.java
+ patterns.clone.figure.FigureListener
+patterns/clone/immutable/MutableLine.java
+ patterns.clone.immutable.MutableLine
+patterns/clone/comparison/Dictionary.java
+ patterns.clone.comparison.Dictionary
+ patterns.clone.comparison.Dictionary$Oof
+patterns/clone/immutable/samples/ComplexImmutable.java
+ patterns.clone.immutable.samples.ComplexImmutable
+patterns/clone/immutable/samples/FractionMutable.java
+ patterns.clone.immutable.samples.FractionMutable
+patterns/clone/figure/FigureEvent.java
+ patterns.clone.figure.FigureEvent
+patterns/clone/immutable/samples/LeakingThis.java
+ patterns.clone.immutable.samples.LeakingThis
+ patterns.clone.immutable.samples.TextUtil
+patterns/clone/immutable/samples/FractionImmutable.java
+ patterns.clone.immutable.samples.FractionImmutable
+patterns/clone/comparison/util/SerializableClone.java
+ patterns.clone.comparison.util.SerializableClone
+patterns/clone/comparison/CompareCopyStrategies.java
+ patterns.clone.comparison.CompareCopyStrategies
+patterns/clone/alias/TestDiamond.java
+ patterns.clone.alias.TestDiamond
+ patterns.clone.alias.TestDiamond$Node
