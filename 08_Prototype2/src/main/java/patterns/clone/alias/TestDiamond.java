@@ -1,10 +1,12 @@
 package patterns.clone.alias;
 
+import java.io.*;
+
 // This program demonstrates, that the Java-Cloning mechanism does not work
 // for diamond structures, i.e. for alias references.
 public class TestDiamond {
 
-	static class Node implements Cloneable {
+	static class Node implements Serializable {
 		private Node left, right;
 		private int val;
 
@@ -25,6 +27,21 @@ public class TestDiamond {
 				throw new InternalError();
 			}
 		}
+
+//		public Node clone () {
+//			try {
+//				ByteArrayOutputStream out = new ByteArrayOutputStream();
+//				ObjectOutputStream oout = new ObjectOutputStream(out);
+//				oout.writeObject(this);
+//				ObjectInputStream oin = new ObjectInputStream(
+//						new ByteArrayInputStream(out.toByteArray()));
+//				return (Node) oin.readObject();
+//			}
+//			catch (Exception e) {
+//				throw new RuntimeException ("cannot clone class");
+//			}
+//		}
+
 
 		public Node getLeft() {  return left; }
 		public Node getRight() { return right; }

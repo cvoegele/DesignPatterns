@@ -1,10 +1,12 @@
 package patterns.clone.alias;
 
+import java.io.*;
+
 // This program demonstrates, that the Java-Cloning mechanism does not work
 // for cyclic structures.
 public class TestCycle {
 
-	static class Node implements Cloneable {
+	static class Node implements Serializable {
 		private Node next;
 		private int val;
 
@@ -13,16 +15,30 @@ public class TestCycle {
 			this.next = next;
 		}
 
-		@Override
-		public Node clone() {
+//		@Override
+//		public Node clone() {
+//			try {
+//				Node c = (Node) super.clone();
+//				if (c.next != null) {
+//					c.next = c.next.clone();
+//				}
+//				return c;
+//			} catch (CloneNotSupportedException e) {
+//				throw new InternalError();
+//			}
+//		}
+
+		public Node clone () {
 			try {
-				Node c = (Node) super.clone();
-				if (c.next != null) {
-					c.next = c.next.clone();
-				}
-				return c;
-			} catch (CloneNotSupportedException e) {
-				throw new InternalError();
+				ByteArrayOutputStream out = new ByteArrayOutputStream();
+				ObjectOutputStream oout = new ObjectOutputStream(out);
+				oout.writeObject(this);
+				ObjectInputStream oin = new ObjectInputStream(
+						new ByteArrayInputStream(out.toByteArray()));
+				return (Node) oin.readObject();
+			}
+			catch (Exception e) {
+				throw new RuntimeException ("cannot clone class");
 			}
 		}
 
