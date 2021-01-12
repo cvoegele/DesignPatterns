@@ -5,6 +5,17 @@
       <module name="02_Observer1" target="11" />
       <module name="02_Observer1.main" target="11" />
       <module name="02_Observer1.test" target="11" />
+      <module name="03_Observer2" target="11" />
+      <module name="03_Observer2.main" target="11" />
+      <module name="03_Observer2.test" target="11" />
+      <module name="05_Strategy" target="11" />
+      <module name="05_Strategy.main" target="11" />
+      <module name="05_Strategy.test" target="11" />
+      <module name="06_Composite" target="11" />
+      <module name="06_Composite.main" target="11" />
+      <module name="06_Composite.test" target="11" />
+      <module name="14_Inheritance.main" target="11" />
+      <module name="14_Inheritance.test" target="11" />
     </bytecodeTargetLevel>
   </component>
 </project>
