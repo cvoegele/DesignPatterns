@@ -12,7 +12,10 @@ public class CompareCopyStrategies {
 	private static double measure(Dictionary dict) {
 		long start = System.currentTimeMillis();
 		for (int i = 0; i < NOFCLONES; i++) {
-			dict.clone();
+			var clone = dict.clone();
+			var c = (Dictionary) clone;
+			c.oof.setHappyNumber(222);
+			System.out.println(c.oof.getHappyNumber());
 		}
 		long end = System.currentTimeMillis();
 		double t = (end - start) / 1000.0;

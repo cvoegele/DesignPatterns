@@ -1,0 +1,11 @@
+patterns/decorator/Test.java
+ patterns.decorator.Test
+patterns/decorator/RedDecorator.java
+ patterns.decorator.RedDecorator
+patterns/decorator/Phone.java
+ patterns.decorator.Mobile
+ patterns.decorator.Phone
+patterns/decorator/util/Collections.java
+ patterns.decorator.util.Collections
+ patterns.decorator.util.Collections$UnmodifiableCollection
+ patterns.decorator.util.Collections$UnmodifiableCollection$1
